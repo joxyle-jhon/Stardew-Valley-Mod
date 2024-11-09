@@ -26,4 +26,4 @@ Welcome to the Stardew Valley Mod for the custom NPC, **Joseph McArthur**! This 
    - Clone or download this repository to your computer.
 
    ```bash
-   git clone https://github.com/YourUsername/JosephMcArthurMod.git
+   https://github.com/joxyle-jhon/Stardew-Valley-Mod.git

@@ -20,7 +20,7 @@ Welcome to the Stardew Valley Mod for the custom NPC, **Joseph McArthur**! This 
 - **Event Participation**: Joseph actively participates in Stardew Valley's seasonal events with custom dialogues.
 - **Modded Social Tab and Gift Log**: Track relationship progress and gifting history with custom interface updates.
 
-## Installation
+## Installation/Setup
 
 1. **Download the Mod Files**:
    - Clone or download this repository to your computer.

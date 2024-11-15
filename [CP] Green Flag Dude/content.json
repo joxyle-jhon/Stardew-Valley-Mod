@@ -1,0 +1,56 @@
+{
+  "Format": "2.3.0",
+  "Changes": [
+    {
+      "LogName": "Green Flag Dude Disposition",
+      "Action": "Include",
+      "FromFile": "data/GreenFlagDude.json"
+    },
+    {
+      "LogName": "Portrait",
+      "Action": "Load",
+      "Target": "Portraits/GreenFlagDude",
+      "FromFile": "assets/Portraits/Zoro_Portrait_Spring.png"
+    },
+    {
+      "LogName": "Sprite",
+      "Action": "Load",
+      "Target": "Characters/GreenFlagDude",
+      "FromFile": "assets/Characters/Zoro_Spring.png"
+    },
+    {
+      "LogName": "Dialogue",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/GreenFlagDude",
+      "FromFile": "data/dialogue.json"
+    },
+    {
+      "LogName": "Schedule",
+      "Action": "Load",
+      "Target": "Characters/schedules/GreenFlagDude",
+      "FromFile": "data/schedule.json"
+    },
+    {
+      "LogName": "Gift Taste",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {
+          "GreenFlagDude": "This is incredible! /-5 305 272 306 307 308 807/Wow, this is pretty neat.//This is cringe.//This reminds me of the time my little brother drank a candle, are you as thick as him?/-4/I AM THE LORD OF DARKNESS.// "
+      }
+    },
+    {
+    "Action": "EditData",
+    "Target": "Data/EngagementDialogue",
+    "Entries": {
+      "GreenFlagDude0": "MARRIAGE IS AWESOME. I CANNOT WAIT. $4#$e# FOREVER LOVE.$1",
+      "GreenFlagDude1": "I seriously can't believe I'm so lucky. $4#$e# Back on my home planet, we don't do weddings, so I never thought this would happen to me! $4",
+      },
+    },
+    {
+      "LogName": "Festival",
+      "Action": "Include",
+      "FromFile": "data/festival.json"
+    },
+      
+    ]
+}

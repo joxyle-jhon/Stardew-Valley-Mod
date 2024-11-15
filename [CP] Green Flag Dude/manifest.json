@@ -1,0 +1,11 @@
+{
+  "Name": "Green Flag Dude",
+  "Author": "Team Joseph",
+  "Version": "1.0.0",
+  "Description": "Gonna add green flag dude.",
+  "UniqueID": "TeamJoseph.GreenFlagDude",
+  "UpdateKeys": [],
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  }
+}

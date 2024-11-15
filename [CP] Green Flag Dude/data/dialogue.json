@@ -1,10 +1,10 @@
 {
-    "Introduction": "Oh, you must be the new farmer. My name is Green Flag Dude. Just call me Good Boy.",
-    "Mon": "Don’t mind my uncle, Lewis.$0.#$b#If he starts annoying you, just tell me. I’ll put molasses in his coffee again. $6",
+    "Introduction": "Hello, you must be the new farmer @.#$b#I'm Levi, nice to meet you. $1",
     "spring_12": "Running around and searching for some eggs? Yeah, I’m all good.",
     "spring_23": "I’m supposed to put on some stupid white dress and dance around tomorrow? $6#$b# Fat chance. $6",
     "summer_10": "Me and the Governor don’t get along very well. $4#$e# I’d like to skin him. $7",
     "summer_27": "Moonlight Jellies? What? No wonder Uncle Lewis asked me to work late tomorrow night! $6 ",
+    "Mon": "A beautiful day, don't you think?",
     "Tue": "Ugh, paperwork day.$2#$b# Just another reason I want to move out of this place.$2",
     "Wed": "I think it’s gonna rain tomorrow.#$e# Rain days inside are the BEST kind of days..$1",
     "Thu": "I had to make myself dinner last night, my Uncle Lew didn’t get home until real late.#$b# I wonder where he goes.",
@@ -26,12 +26,10 @@
     "Fri4": "Uncle Lew has really been on my case lately. $2#$e# I think in a battle of physical limits I would best him. $1",
     "Sun4": "I want to chew an entire lemon. $4",
     
-    
     "Wed6": "Sometimes I wish I was just a beetle. $3#$e# I would be very crunchy.",
     "Thu6": "Gus is pretty hairy, don’t you think?",
     "Fri6": "I would like to watch the sun burn an ant into dust.",
     "Sat6": "I love sunshine.",
-    
     
     "Mon8": "Uncle Lew wants me to help with the garden later today. $0#$e# I’m glad he asks for my help. $1",
     "Tue8": "Everyone in this town still annoys me besides Uncle Lew. $2#$e# You’re pretty cool too, I guess. $6",

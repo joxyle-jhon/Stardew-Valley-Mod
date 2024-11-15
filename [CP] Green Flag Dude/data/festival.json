@@ -1,0 +1,28 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target":  "Data/Festivals/spring24",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters"
+                    ],
+                    "Value": "GreenFlagDude 9 34 2",
+                    "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "MainEvent_additionalCharacters"
+                    ],
+                    "Value": "GreenFlagDude 23 28 3",
+                    "Delimiter": "/"
+                }
+            ],
+        },
+    ]
+}

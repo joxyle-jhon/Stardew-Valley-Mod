@@ -1,0 +1,40 @@
+﻿{
+  "Changes": [
+
+    {
+      "Action": "EditData",
+      "Target": "Data/Characters",
+      "Entries": {
+        "GreenFlagDude": {
+          "DisplayName": "Green Flag Dude",
+          "Gender": "Male", //self-explanatory: can be male, female, or undefined (for nonbinary)
+          "Age": "Adult", //can be child, teen or adult; affects certain default strings
+          "Manner": "Polite", //can be polite, neutral, or rude; affects certain default strings
+          "SocialAnxiety": "Outgoing", //can be outgoing, neutral, or shy; affects certain default strings
+          "Optimism": "Positive", //can be positive, neutral, or negative; affects certain default strings
+          "BirthSeason": "fall", //self-explanatory
+          "BirthDay": "10", //self-explanatory
+          "HomeRegion": "Town", //can be Town, Desert, or Other - I suggest Town so they're included in certain activities like the Luau friendship boost and Winter Star, unless you're doing a hidden or non-human NPC, in which case you might want Other. 
+          "CanBeRomanced": true, //Whether or not the NPC is dateable/marryable. 
+          "CanVisitIsland": true, //Whether the NPC can visit the resort. Set to false if you don't want them at the beach or don't have your resort strings set up.
+          "SpouseAdopts": true, //If your character is marryable, you can use this field to have your character always adopt.
+          "IntroductionsQuest": true, //If you don't want your NPC to be included as part of the introductions quest (perhaps if you have an NPC you want hidden at the start), set to false
+          "ItemDeliveryQuests": true, //set to false if you want to not have them included in the Help Wanted regular quests for fetching items for reasons, e.g., if they are a cat.
+          "WinterStarParticipant": true, //set to false if you don't want your NPC to be part of the random gifter/giftee pool.
+
+          "Home": [ //set this to where you want the NPC to spawn in normally.  
+            {
+              "Id": "Default",
+              "Location": "ManorHouse",
+              "Tile": {
+                "X": 2,
+                "Y": 8
+              },
+              "Direction": "right"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

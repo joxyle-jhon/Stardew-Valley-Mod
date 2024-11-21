@@ -51,6 +51,16 @@
       "Action": "Include",
       "FromFile": "data/festival.json"
     },
+     /*Jit’s important that you choose a unique number: 7 to 8 digits is recommended. 
+      It is recommended to use your 4-digit Nexus ID followed by 3-4 other numbers.*/
+    {
+      "LogName": "Town Event for GreenFlagDude",
+      "Action": "EditData",
+      "Target": "Data/Events/Town",
+      "Entries": {
+        "1234567/f GreenFlagDude 500/t 1000 1800/s": "continue/25 23/farmer 24 23 1 GreenFlagDude 28 18 0/pause 1000/move GreenFlagDude 0 5 0/faceDirection GreenFlagDude 3 true/skippable/pause 500/speak GreenFlagDude \"Hey there! Beautiful day, isn't it?$h\"/pause 500/emote farmer 16/pause 300/speak GreenFlagDude \"I've got something for you. Take it as a token of goodwill.$h\"/pause 300/addObject 24 1/pause 500/emote farmer 32/pause 1000/globalFade/viewport -1000 -1000/end"
+      }
+    }
       
     ]
 }

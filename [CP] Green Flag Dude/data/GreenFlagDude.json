@@ -10,8 +10,10 @@
           "Gender": "Male", //self-explanatory: can be male, female, or undefined (for nonbinary)
           "Age": "Adult", //can be child, teen or adult; affects certain default strings
           "Manner": "Polite", //can be polite, neutral, or rude; affects certain default strings
-          "BirthSeason": "winter", //self-explanatory
-          "BirthDay": "1", //self-explanatory
+          "SocialAnxiety": "Outgoing", //can be outgoing, neutral, or shy; affects certain default strings
+          "Optimism": "Positive", //can be positive, neutral, or negative; affects certain default strings
+          "BirthSeason": "fall", //self-explanatory
+          "BirthDay": "10", //self-explanatory
           "HomeRegion": "Town", //can be Town, Desert, or Other - I suggest Town so they're included in certain activities like the Luau friendship boost and Winter Star, unless you're doing a hidden or non-human NPC, in which case you might want Other. 
           "CanBeRomanced": true, //Whether or not the NPC is dateable/marryable. 
           "CanVisitIsland": true, //Whether the NPC can visit the resort. Set to false if you don't want them at the beach or don't have your resort strings set up.

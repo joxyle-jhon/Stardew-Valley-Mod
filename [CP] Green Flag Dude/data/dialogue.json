@@ -1,53 +1,81 @@
 {
     "Introduction": "Hello, you must be the new farmer @.#$b#I'm Levi, nice to meet you.",
+    "AcceptBirthdayGift_Positive": "I can’t believe you remembered my birthday, @!$h#$b#Just receiving something... means a lot to me.$l",
+    "AcceptBirthdayGift_Negative": "I can’t believe you remembered my birthday, @!$h#$b#Oh... this is really not something I’d want. I hope you didn’t go out of your way for it.",
+    "DumpsterDiveComment": "Hope you find something useful and not trash.",
 
     "Mon": "Feels peaceful here right?", 
     "Tue": "This is such a peaceful town.#$b#It's different from where I came from.",
-    "Wed": "Have you seen my cat somewhere?",
+    "Wed": "It feels weird, relaxing like this.",
     "Thu": "Hello, just taking a break here.",
     "Fri": "Hmm? Do you need anything?",
-    "Sat": "I feel tired.#$b# Oh right, I forgot to drink my morning coffee.",
-    "Sun": "Hello, have you met everyone in town yet? They are all nice people.",
+    "Sat": "I feel tired.#$b# Oh right, I forgot to drink my morning coffee.$s",
+    "Sun": "Hello, have you met everyone in town yet?#$b#They are all nice people.$h",
 
-    "Mon2": "A breath of fresh air never hurts no one#$b#Everyone needs it once in a while", 
-    "Tue2": "I wonder how they’re doin-#$b#Oh hey, uhh.. what’s up?, I didn’t see you there",
-    "Wed2": "It’s nice having some peace and quiet around here",
+    "Mon2": "A breath of fresh air never hurts no one#$b#Everyone needs it once in a while.", 
+    "Tue2": "I wonder how they’re doin-#$b#Oh hey, uhh.. what’s up?, I didn’t see you there.",
+    "Wed2": "It’s nice having some peace and quiet around here.",
     "Thu2": "I’m still not sure about everything in this town.#$b#But it’s a start.",
-    "Fri2": "*Murmurs words you don’t understand about computer stuff*",
+    "Fri2": "Do want a cup of coffee?#$b#I'm very good at brewing!$h",
     "Sat2": "I don’t expect much from anyone anymore.#$b#People rarely surprise me.",
-    "Sun2": "Man, time flies so fast.",
+    "Sun2": "I’m curious#$b#What kind of coffee do you like?",
 
     "Mon4": "Hello there @! How are you doing?", 
-    "Tue4": "Good thing my job lets me work in such a nice town as here",
-    "Wed4": "Have you seen my cat somewhere?#$b#I swear, he's always hiding.",
-    "Thu4": "There’s not much car activity at this place#$b#Made me focus on my work",
+    "Tue4": "Good thing my job lets me work in such a nice town as here.",
+    "Wed4": "Granpa George is a good person despite his mean comments.$h",
+    "Thu4": "There’s not much car activity at this place#$b#Made me focus on my work.",
     "Fri4": "I’m in the mood to develop an app#$b#Got any ideas?",
-    "Sat4": "Careful of those scammers on the internet#$b#The are so annoying",
-    "Sun4": "Sundays…#$b#It’s supposed to be a rest day for everyone",
+    "Sat4": "Careful of those scammers on the internet#$b#The are so annoying.",
+    "Sun4": "Sundays…#$b#It’s supposed to be a rest day for everyone.",
 
     "Mon6": "Another week, another set of tasks.#$b#I’ll get it done, like always.",
-    "Tue6": "What’s up @?#$b#I’m currently developing a website for the town#$b#Still not sure what would it be tho",
-    "Wed6": "I’m curious#$b#What kind of coffee do you like?",
+    "Tue6": "What’s up @?#$b#I’m currently developing a website for the town#$b#Still not sure what would it be though.",
+    "Wed6": "I still get embarassed, thinking about you overhearing my converstion with my parents.",
     "Thu6": "Oh, hey @!#$b#Didn’t expect to see you here#$b#How’s life so far?",
-    "Fri6": "Sometimes I just wish I was a bread",
+    "Fri6": "Sometimes I just wish I was a bread.",
     "Sat6": "Maybe I just need a break.#$b#I’ve been thinking about some things…#$b#Just need to clear my head.",
-    "Sun6": "It’s sunday again…#$b#Time flies so fast when you’re having fun",
+    "Sun6": "It’s sunday again…#$b#Time flies so fast when you’re having fun.",
 
-    "Mon8": "”Happy hare, where have you buried all your children?”#$b#I used to wonder what it meant, ‘til I came to this town",
-    "Tue8": "They tell that I’m special, and humble, and gifted#$b#And I just let them lie to me",
-    "Wed8": "Man, I just started my day oversleeping a client meeting",
+    "Mon8": "”Happy hare, where have you buried all your children?”#$b#I used to wonder what it meant, ‘til I came to this town.",
+    "Tue8": "They tell that I’m special, and humble, and gifted#$b#And I just let them lie to me.",
+    "Wed8": "Man, I just started my day oversleeping a client meeting.",
     "Thu8": "You make this whole town feel a bit more... bearable.",
     "Fri8": "You’re one of the few people who actually gets it.#$b#I appreciate that.",
     "Sat8": "You can’t always rely on others.#$b#Trust is hard to come by.#$b#You won't break mine, right?",
-    "Sun8": "I try to keep my distance from unnecessary drama.#$b#It's safer that way",
+    "Sun8": "I try to keep my distance from unnecessary drama.#$b#It's safer that way.",
 
-    "Mon10": "I’m not good at showing affection.#$b#But I’ll try to do better.",
+    "Mon10": "I’m not good at showing affection.#$b#But I’ll try to do better.$l",
     "Tue10": "I forgot to drink my coffee today.#$b#Can't seem to focus without it.",
-    "Wed10": "How come you always look so good? ",
-    "Thu10": "I know I’m not easy to read, but I hope you don’t mind the silence sometimes.",
+    "Wed10": "You're beautiful, did you know that?$l",
+    "Thu10": "Everything feels brighter whenever I see you.$h",
     "Fri10": "Want me to make you a coffee?#$b#How’d you want it made?",
-    "Sat10": "Work’s tiring#$b#Good thing I have you",
-    "Sun10": "I don’t like to admit it, but...#$b#I look forward to seeing you on Sundays.",   
+    "Sat10": "Work’s tiring#$b#Good thing I have you$l",
+    "Sun10": "I don’t like to admit it, but...#$b#I look forward to seeing you on Sundays.$h",
+
+    "spring_12": "Oh, hello.#$b#Wait, tomorrows the Egg Festival?#$b#Well, I got to prepare! Thanks for reminding me.", // Day before the Egg Festival
+    "spring_23": "Oh, Hi!#$b#Tomorrows the flower dance.#$b#I’m not exactly the ‘dancer’ type of guy.", // Day before the Flower Dance
+    "summer_10": "The Luau is tomorrow.#$b#Hope I don’t burn the potluck dish this time.", // Day before the Luau
+    "summer_27": "Tomorrow’s the Dance of the Midnight Jellies.#$b#Such a peaceful tradition. I’ll be there.", // Day before the Midnight Jellies
+    "fall_15": "The Stardew Fair’s tomorrow? #$b#Maybe I’ll try one of those games. Just for fun.", // Day before the Stardew Fair
+    "fall_26": "Spirit’s Eve is tomorrow.#$b#I’m not much for spooky things, but it’s always interesting.", // Day before Spirit's Eve
+    "winter_1": "It’s... my birthday today.#$b#Thanks for remembering.#$b#Honestly, I didn’t think anyone would.", // Birthday Dialogue
+    "winter_7": "Tomorrow’s the Ice Festival.#$b#Guess I should find a scarf or something.", // Day before the Ice Festival
+    "winter_24": "Winter Star’s tomorrow.#$b#I hope they will like what I prepared.", // Day before Winter Star
+
+    "cc_Begin": "So this town has its own secrets?#$b#This is definitely not what I expected when I moved here.",
+    "cc_Boulder": "The boulder’s gone?#$b#I’ll have to explore that area when I get the chance.",
+    "cc_Bridge": "The bridge is finally fixed.#$b#More places to go, I guess.",
+    "cc_Bus": "The bus is working again?#$b#Might be time to take a trip.",
+    "cc_Greenhouse": "The greenhouse is up and running?#$b#Someone’s been busy. Great job.",
+    "cc_Minecart": "The minecarts are functional again?#$b#That’ll save a ton of time.",
+    "cc_Complete": "The Community Center’s complete.#$b#This place really is coming back to life.",
+    "movieTheater": "A movie theater in Pelican Town?#$b#Didn’t see that coming.",
+    "willyCrabs": "What’s with all these crabs?#$b#Willy got himself hands full, huh?",
+    "GreenRainFinished": "That was... something else.#$b#A reminder that this world still has mysteries.", //new event in 1.6 - used the day after the event
+    
+    "GreenRain": "Pelican Town just have that mysterious tint surrounding it.#$b#I wonder what this green rain entails? I hope nothing dangerous",
+    "GreenRain_2": "Alas, the rain is back. It just happens once a year.#$b#Nature seems loving it, so maybe it's not a bad thing.",
+
     
     }
     

@@ -1,5 +1,34 @@
 {
     "Changes": [
+        {	
+			"LogName": "Egg Festival",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring13",
+			"TextOperations":
+   			[
+				{
+   				    "Operation": "Append",
+   				    "Target": ["Entries", "Set-Up_additionalCharacters"],
+   				    "Value": "GreenFlagDude 26 62 down",
+   				    "Delimiter": "/"
+				},
+				{
+   				    "Operation": "Append",
+   				    "Target": ["Entries", "MainEvent_additionalCharacters"],
+   				    "Value": "GreenFlagDude 26 62 down",
+   				    "Delimiter": "/"
+				},
+			],
+		},
+		{
+			"LogName": "Egg Festival - Dialogue",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring13",
+			"Entries": 
+			{ "GreenFlagDude": "All these eggs remind me of simpler times—backyard hunts and spring mornings. Feels nostalgic, doesn’t it?",
+			},
+			
+		},
         {
             "Action": "EditData",
             "Target":  "Data/Festivals/spring24",
@@ -24,5 +53,348 @@
                 }
             ],
         },
-    ]
+        {	
+			"LogName": "Flower Dance - Dialogue",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring24",
+			"Entries": 
+			{ "GreenFlagDude": "What a beautiful day for a festival! Don’t you think so, @?$h",},
+		},
+        {	
+			"LogName": "Luau",
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer11",
+			"TextOperations":
+   			[
+				{
+   				    "Operation": "Append",
+   				    "Target": ["Entries", "Set-Up_additionalCharacters"],
+   				    "Value": "GreenFlagDude 43 25 down",
+   				    "Delimiter": "/"
+				},
+				{
+					"Operation": "Append",
+					"Target": ["Entries", "MainEvent_additionalCharacters"],
+					"Value": "GreenFlagDude 47 17 left",
+					"Delimiter": "/"
+				},
+			],
+		},
+		{	
+			"LogName": "Luau - dialogue",
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer11",
+			"Entries": 
+			{ "GreenFlagDude": "The soup smells amazing. Did you add something special? I trust your taste more than anyone else’s"},
+		},
+		{	
+            "LogName": "Luau - dialogue - Potluck compat",
+            "Action": "EditData",
+            "Target": "Data/Festivals/summer11",
+            "When": { "HasMod: |contains=LenneDalben.PelicanTownPotluck": true},
+            "Entries": 
+            { "GreenFlagDude": "The soup smells amazing. Did you add something special? I trust your taste more than anyone else’s"},
+		},
+		{	
+			"LogName": "Dance of the Moonlight Jellies",
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer28",
+			"TextOperations":
+			[
+				{
+					"Operation": "Append",
+					"Target": ["Entries", "Set-Up_additionalCharacters"],
+					"Value": "GreenFlagDude 13 30 right",
+					"Delimiter": "/"
+				},
+				{
+					"Operation": "Append",
+					"Target": ["Entries", "MainEvent_additionalCharacters"],
+					"Value": "GreenFlagDude 13 30 right",
+					"Delimiter": "/"
+				},
+			],
+		},
+		{	
+			"LogName": "Dance of the Moonlight Jellies - Dialogue",
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer28",
+			"Entries": 
+			{ "GreenFlagDude": "Look at them, @. It’s like they’re dancing just for us. Nights like this remind me why I came here",
+			},
+		},
+		{	
+			"LogName": "Stardew Valley Fair",
+			"Action": "EditData",
+			"When": { "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false},
+			"Target": "Data/Festivals/fall16",
+			"TextOperations":
+			[
+				//SetUp (non-SVE) - I don't believe there is a "main event" one for this"
+				{
+					"Operation": "Append",
+					"Target": ["Entries", "Set-Up_additionalCharacters"],
+					"Value": "GreenFlagDude 21 63 down",
+					"Delimiter": "/"
+				},
+			],
+		},
+		//SetUp (SVE) - SVE changes the fair a lot, so you may want different positions.
+		{	
+			"LogName": "Stardew Valley Fair - SVE compat",
+			"Action": "EditData",
+			"When": { "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true},
+			"Target": "Data/Festivals/fall16",
+			"TextOperations":
+			[
+				{
+					"Operation": "Append",
+					"Target": ["Entries", "Set-Up_additionalCharacters"],
+					"Value": "GreenFlagDude 21 63 down",
+					"Delimiter": "/"
+				},
+			],
+		},
+		{	
+			"LogName": "Stardew Valley Fair",
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall16",
+			"Entries": 
+			{ "GreenFlagDude": "If you need me, I’ll be trying to win one of those plushies. You know, for… decoration. Definitely not for cuddling",
+			},
+		},
+		{	
+			"LogName": "Spirit's Eve",
+			"Action": "EditData",
+			"When": { "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false},
+			"Target": "Data/Festivals/fall27",
+			"TextOperations":
+			[
+				{
+					"Operation": "Append",
+					"Target": ["Entries", "Set-Up_additionalCharacters"],
+					"Value": "GreenFlagDude 27 53 left",
+					"Delimiter": "/"
+				},
+			],
+		},			
+		{	
+			"LogName": "Spirit's Eve - SVE compat",
+			"Action": "EditData",
+			"When": { "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true},
+			"Target": "Data/Festivals/fall27",
+			"TextOperations":
+			[
+				//SetUp (SVE) - SVE changes the maps from year to year but I don't know the specifics, so you may need more than one set of positions for SVE compat.
+				{
+					"Operation": "Append",
+					"Target": ["Entries", "Set-Up_additionalCharacters"],
+					"Value": "GreenFlagDude 27 53 left",
+					"Delimiter": "/"
+				},
+			],
+		},
+		{	
+			"LogName": "Spirit's Eve - dialogue",
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall27",
+			"Entries": 
+			{ "GreenFlagDude": "Don’t get lost in the maze, @. If you scream, I promise not to laugh. Too much.",
+			},
+		},
+		{	
+			"LogName": "Festival of Ice",
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter8",
+			"When": { "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false},
+			"TextOperations":
+			[
+				{
+					"Operation": "Append",
+					"Target": ["Entries", "Set-Up_additionalCharacters"],
+					"Value": "GreenFlagDude 63 37 right",
+					"Delimiter": "/"
+				},
+				{
+					"Operation": "Append",
+					"Target": ["Entries", "MainEvent_additionalCharacters"],
+					"Value": "GreenFlagDude 63 37 right",
+					"Delimiter": "/"
+				},
+			],
+		},
+		{	
+			"LogName": "Festival of Ice - SVE compat",
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter8",
+			"When": { "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true},
+			"TextOperations":
+			[
+				{
+					"Operation": "Append",
+					"Target": ["Entries", "Set-Up_additionalCharacters"],
+					"Value": "GreenFlagDude 31 74 down",
+					"Delimiter": "/"
+				},
+				{
+					"Operation": "Append",
+					"Target": ["Entries", "MainEvent_additionalCharacters"],
+					"Value": "GreenFlagDude 31 74 down",
+					"Delimiter": "/"
+				},
+			],
+		},
+		{	
+			"LogName": "Festival of Ice - Dialogue",
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter8",
+			"Entries": 
+			{ "GreenFlagDude": "I’ve never been great at ice fishing, but watching others try? That’s half the fun." },
+		},
+		{	
+			"LogName": "Feast of the Winter Star",
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter25",
+			"TextOperations":
+			[
+				//SetUp - I think there is a MainEvent, but only during the actual gift-giving cutscene.
+				{
+					"Operation": "Append",
+					"Target": ["Entries", "Set-Up_additionalCharacters"],
+					"Value": "GreenFlagDude 24 56 right",
+					"Delimiter": "/"
+				},
+			],
+		},
+		{	
+			"LogName": "Feast of the Winter Star - Dialogue",
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter25",
+			"Entries": 
+			{ "GreenFlagDude": "I’ve always loved giving gifts more than receiving them. It’s nice to see someone light up over something thoughtful, you know?",
+			},
+		},
+		{	
+		"LogName": "Feast of the Winter Star Solstice Compat",
+		"Action": "EditData",
+		"Target": "Data/Festivals/winter25",
+		"When": { "HasMod: |contains=Airyn.CPSolsticeWinterStar": true},
+		"Entries": 
+		{ "GreenFlagDude": "This solstice feast reminds me of the holidays back home—before they got too complicated. It’s nice to just enjoy the moment, isn’t it?", },
+		},
+		
+		{	
+			"LogName": "Ridgeside Gathering",
+			"Action": "EditData",
+			"When": { "HasMod":"Rafseazz.RSVCP" },
+			"Target": "Data/Festivals/Fall20",
+			"TextOperations":
+			[
+				{
+					"Operation": "Append",
+					"Target": ["Entries", "Set-Up_additionalCharacters"],
+					"Value": "GreenFlagDude 78 51 up",
+					"Delimiter": "/"
+				},
+				{
+					"Operation": "Append",
+					"Target": ["Entries", "MainEvent_additionalCharacters"],
+					"Value": "GreenFlagDude 79 51 up",
+					"Delimiter": "/"
+				},
+			],
+		},
+		{	
+			"LogName": "Ridgeside Gathering - Dialogue",
+			"Action": "EditData",
+			"When": { "HasMod":"Rafseazz.RSVCP" },
+			"Target": "Data/Festivals/fall20",
+			"Entries": 
+			{ "GreenFlagDude": "The crisp mountain air, the sound of laughter… Ridgeside sure knows how to throw a gathering. It feels alive here.",
+			},
+		},
+		{	
+			"LogName": "Ember of Resolutions",
+			"Action": "EditData",
+			"When": { "HasMod":"Rafseazz.RSVCP" },
+			"Target": "Data/Festivals/winter28",
+			"TextOperations":
+			[
+				{
+					"Operation": "Append",
+					"Target": ["Entries", "Set-Up_additionalCharacters"],
+					"Value": "GreenFlagDude 38 34 down",
+					"Delimiter": "/"
+				},
+				{
+					"Operation": "Append",
+					"Target": ["Entries", "MainEvent_additionalCharacters"],
+					"Value": "GreenFlagDude 39 34 down",
+					"Delimiter": "/"
+				},
+			],
+		},
+		{	
+			"LogName": "Ember of Resolutions - Dialogue",
+			"Action": "EditData",
+			"When": { "HasMod":"Rafseazz.RSVCP" },
+			"Target": "Data/Festivals/winter28",
+			"Entries": 
+			{ "GreenFlagDude": "The end of the year always feels bittersweet, doesn’t it? But tonight’s bonfire is about looking ahead—letting the flames burn away the past.",
+			},
+		},
+		{	
+			"LogName": "Fireworks Festival",
+			"Action": "EditData",
+			"When": { "HasMod":"violetlizabet.CP.FireworksFestival" },
+			"Target": "Data/Festivals/summer20",
+			"TextOperations":
+			[
+				{
+					"Operation": "Append",
+					"Target": ["Entries", "Set-Up_additionalCharacters"],
+					"Value": "GreenFlagDude 22 43 down",
+					"Delimiter": "/"
+				},
+			],
+		},
+		{	
+			"LogName": "Fireworks Festival - Dialogue",
+			"Action": "EditData",
+			"When": { "HasMod":"violetlizabet.CP.FireworksFestival" },
+			"Target": "Data/Festivals/summer20",
+			"Entries": 
+			{ "GreenFlagDude": " wonder what the fireworks would look like from the mountains. Probably breathtaking. Maybe one day, we can watch them from up there together.",
+			},
+		},
+
+			//Ferngill Fashion Festival - Added by https://www.nexusmods.com/stardewvalley/mods/17404 	
+		{	
+			"LogName": "Ferngill Fashion Festival",
+			"Action": "EditData",
+			"When": { "HasMod":"UNA.FF.CP" },
+			"Target": "Data/Festivals/spring19",
+			"TextOperations":
+			[
+				//SetUp
+				{
+					"Operation": "Append",
+					"Target": ["Entries", "Set-Up_additionalCharacters"],
+					"Value": "GreenFlagDude 35 31 up",
+					"Delimiter": "/"
+				},
+			],
+		},
+		{	
+			"LogName": "Ferngill Fashion Festival - Dialogue",
+			"Action": "EditData",
+			"When": { "HasMod":"UNA.FF.CP" },
+			"Target": "Data/Festivals/spring19",
+			"Entries": 
+			{ "GreenFlagDude": "Do you ever feel like clothes tell a story? Not just about the person wearing them, but about where they’ve been and where they’re headed. It’s fascinating.",
+			},
+		},
+
+	]
 }
+    

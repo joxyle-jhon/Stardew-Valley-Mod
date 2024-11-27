@@ -99,6 +99,12 @@
       "Action": "Load",
       "Target": "Maps/JoshHouse",
       "FromFile": "assets/Maps/Assets/JoshHouse.tbin"
+    },
+    {
+      "LogName": "Levi Spouse Room",
+      "Action": "Load",
+      "Target": "Maps/spouseRooms",
+      "FromFile": "assets/Maps/Assets/spouseRooms.tbin"
     }
   ]
 }

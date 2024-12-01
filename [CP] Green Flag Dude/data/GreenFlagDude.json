@@ -22,7 +22,7 @@
           "WinterStarParticipant": true, //set to false if you don't want your NPC to be part of the random gifter/giftee pool.
 
           "SpouseRoom": {
-            "MapAsset": "SpouseRooms", //the name of the map asset for the spouse room.
+            "MapAsset": "SpouseRooms", 
             "MapSourceRect": {
               "X": 18,
               "Y": 18,
@@ -35,12 +35,12 @@
             //set this to where you want the NPC to spawn in normally.
             {
               "Id": "Default",
-              "Location": "ManorHouse",
+              "Location": "JoshHouse",
               "Tile": {
-                "X": 2,
-                "Y": 8
+                "X": 28,
+                "Y": 17
               },
-              "Direction": "right"
+              "Direction": "up"
             }
           ]
         }

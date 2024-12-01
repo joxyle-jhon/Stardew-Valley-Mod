@@ -1,7 +1,11 @@
 {
     "Introduction": "Hello, you must be the new farmer @.#$b#I'm Levi, nice to meet you.",
+    
     "AcceptBirthdayGift_Positive": "I can’t believe you remembered my birthday, @!$h#$b#Just receiving something... means a lot to me.$l",
     "AcceptBirthdayGift_Negative": "I can’t believe you remembered my birthday, @!$h#$b#Oh... this is really not something I’d want. I hope you didn’t go out of your way for it.",
+    "AcceptGift_395":"Just what I needed!$h#$b#Thank you @!$h",
+    "AcceptGift_611":"Just what I needed!$h#$b#Thank you @!$h",
+    
     "DumpsterDiveComment": "Hope you find something useful and not trash.",
 
     "Mon": "Feels peaceful here right?", 
@@ -75,7 +79,7 @@
     
     "GreenRain": "Pelican Town just have that mysterious tint surrounding it.#$b#I wonder what this green rain entails? I hope nothing dangerous",
     "GreenRain_2": "Alas, the rain is back. It just happens once a year.#$b#Nature seems loving it, so maybe it's not a bad thing.",
-
+    
     
     }
     

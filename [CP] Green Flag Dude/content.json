@@ -51,6 +51,20 @@
       }
     },
     {
+      "LogName": "Festival",
+      "Action": "Include",
+      "FromFile": "data/festival.json"
+    },
+    {
+      "LogName": "Mail Edit",
+      "Action": "EditData",
+      "Target": "Data/mail",
+      "Entries": {
+      "GreenFlagDude.tenHearts": "Hey @,^^Are you free tonight? I need to talk to you about something important. Meet me at the Saloon when you have time.^^-Levi[#]@"
+      }
+    },
+    {
+      "LogName": "Default Rain Dialogue",
       "Action": "EditData",
       "Target": "Characters/Dialogue/rainy",
       "Entries": {
@@ -58,6 +72,7 @@
       }
     },
     {
+      "LogName": "Heart Rain Dialogue",
       "Action": "EditData",
       "Target": "Characters/Dialogue/rainy",
       "When": { "Hearts:GreenFlagDude": "6, 7, 8, 9, 10, 11, 12, 13, 14" },
@@ -66,24 +81,13 @@
       }
     },
     {
+      "LogName": "Engagement Dialogue",
       "Action": "EditData",
       "Target": "Data/EngagementDialogue",
       "Entries": {
         "GreenFlagDude0": "I… I didn’t think this day would come so soon, @.$l#$b#You’ve always been my steady ground, the person who makes everything feel possible.#$b#YTo know you feel the same about me? That’s everything I could have hoped for.$l",
         "GreenFlagDude1": "$hThank you. For seeing me, for being patient, and for letting me be part of your world.#$b#I’d love nothing more than to spend my life with you.$l"
       }
-    },
-    {
-      "Action": "EditData",
-      "Target": "Characters/Dialogue/rainy",
-      "Entries": {
-        "GreenFlagDude": "Nothing beats coffee with rain."
-      }
-    },
-    {
-      "LogName": "Festival",
-      "Action": "Include",
-      "FromFile": "data/festival.json"
     },
     {
       "LogName": "Levi's 2-Heart Event: Coffee Moments",
@@ -113,10 +117,24 @@
       "Entries": {
       "6184505/f GreenFlagDude 1500/t 1000 1800": "echos/29 18/farmer 18 22 1 GreenFlagDude 29 18 1/skippable/pause 2000/message \"You heard a yelling voice.\"/message \"-I already told you, I can’t keep doing this!\"/message \"You need to figure things out on your own!\" /move farmer +6 0 1/speak GreenFlagDude \"No, Mom, it’s not about the money. It’s about the principle.$a#$b#I’ve given everything I had, and it was never enough!$a\"/faceDirection farmer 0 true/speak GreenFlagDude \"I moved here to start fresh.$a#$b#I can’t keep putting out fires you won’t even try to stop setting!$a\"/playSound phone/move farmer 0 -4 0/faceDirection farmer 1 /faceDirection GreenFlagDude 3/emote GreenFlagDude 16/pause 500/speak GreenFlagDude \"Oh... @.$s#$b#You heard all that, huh?$s\"/move farmer +4 0 1/speak GreenFlagDude \"Sorry. I didn’t mean for you to get caught up in that.$s#$b#That was my... family.\"/pause 500/speak GreenFlagDude \"They called to ‘check in,’ but we both know that’s not why$s.#$b#They always want something—money, favors, excuses to blame me for their problems.$a\" /quickQuestion \"\"#That sounds exhausting. You don’t deserve that.#Do you want to talk about it?#You were right to stand up for yourself.(break)speak GreenFlagDude \"Yeah, it is.#$b#And... thanks. It’s nice to hear that.\"(break)speak GreenFlagDude \"I don’t even know where to start...$s#$b#But maybe it’d help to get it off my chest.\"(break)speak GreenFlagDude \"You think so?#$b#It’s hard, but... yeah, I guess it was$s\"/speak GreenFlagDude \"They’ve been like this for as long as I can remember.#$b#I was just a kid when I started supporting them—working late, skipping meals, doing whatever it took.$s\" /speak GreenFlagDude \"But it was never enough. And when I finally said 'no', they acted like I’d betrayed them.$s\"/speak GreenFlagDude \"I know I made the right choice moving here.#$b#But every time they call, I feel... guilty. Like I’m letting them down. Even though I know it’s not my job to fix their lives.$s\"/switchEvent 6184506",
       "6184506": "/pause 500/quickQuestion \"\"#You’ve done more than enough, Levi. It’s okay to put yourself first.#You’re not responsible for their choices. You deserve better.#You’re stronger than you think. You’ve already come so far.(break)speak GreenFlagDude \"You really think so?#$b#Maybe... maybe you’re right.$l\"(break)speak GreenFlagDude \"Thanks, @.#$b#I needed to hear that.$l\"(break)speak GreenFlagDude \"You always know what to say, huh?#$b#I don’t feel strong, but... maybe I am.$l\"/pause 500/speak GreenFlagDude \"Thanks for listening, @.#$b#I’ve been carrying this stuff for so long, it’s hard to let it out.\" /speak GreenFlagDude \"You’ve been a good friend to me.$l#$b#I’m lucky to have someone like you around.$l\"/speak GreenFlagDude \"I think it’s time I started setting some real boundaries.#$b#For my sake.\"/emote farmer 32/pause 1000/globalFade/viewport -1000 -1000/friendship GreenFlagDude 80/end"
-
       }
     },
-
-    
+    {
+      "LogName": "Levi’s 8-Heart Event: Breaking the Cycle",
+      "Action": "EditData",
+      "Target": "Data/Events/Forest",
+      "Entries": {
+      "6184507/f GreenFlagDude 2000/t 1000 1800": "echos/71 50/farmer 70 43 2 GreenFlagDude 71 50 2/skippable/pause 2000/move farmer 0 +7 2/faceDirection GreenFlagDude 3 true/faceDirection farmer 1 true/speak GreenFlagDude \"Oh, hey, @.#$b#What brings you out here this late?\"/faceDirection GreenFlagDude 2 true/speak GreenFlagDude \"I couldn’t sleep.#$b#Figured a cup of coffee and some fresh air might help.\" /speak GreenFlagDude \"Guess some habits are hard to break.$s\" /faceDirection GreenFlagDude 3 true/speak GreenFlagDude \"You ever wonder if you’re doing the right thing?$s#$b#Like, even when you try your best, it still feels like... I don’t know... it’s not enough?$s\"/quickQuestion \"\"#Sometimes. But you can’t let those doubts stop you.#What’s making you feel that way?#You’ve already come so far. Don’t forget that.(break)speak GreenFlagDude \"Yeah... I guess that’s true.$s#$b#Easier said than done, though.$s\"(break)speak GreenFlagDude \"It’s... my family again.$s#$b#Even after everything, they still have this hold on me.$s\"(break)speak GreenFlagDude \"Thanks, @.$s#$b#I guess I needed that reminder.$s\" /faceDirection GreenFlagDude 1 true/speak GreenFlagDude \"I told them no again. It felt good, in the moment.$h#$b#But then the guilt kicked in$s.#$b#They’re still my family, you know? I feel like I’m abandoning them.$s\"/switchEvent 6184508",
+      "6184508": "pause 500/speak GreenFlagDude \"I know it’s not fair. I’ve done more for them than anyone ever should.$s#$b#But part of me keeps wondering...$s\"/faceDirection GreenFlagDude 3 true/speak GreenFlagDude \"What if I’m wrong? What if they really do need me?$s\" /quickQuestion \"\"#They’ve had plenty of chances. You’ve done enough.#You’re not abandoning them. You’re choosing yourself for once.#You can still care about them, but from a distance.(break)speak GreenFlagDude \"You’re right.#$b#They’re adults. They need to take responsibility.$a\"(break)speak GreenFlagDude \"That’s... a nice way to look at it.#$b#I never thought of it like that before.\"(break)speak GreenFlagDude \"Yeah...#$b#Maybe that’s the balance I need. For my sake.\" /speak GreenFlagDude \"You always seem to know what to say.#$b#I don’t know where I’d be without you.$h\" /speak GreenFlagDude \"For the first time in a long time, I feel like... maybe I can do this.$h#$b#Start over. Break the cycle.$h#$b#And not just for me, but because I’ve got people here who actually care.$h\" /speak GreenFlagDude \"Thanks for staying with me and listening, @.#$b#It means more than you know.$l\"/pause 1000/globalFade/viewport -1000 -1000/message \"You talked more about life with Levi. It seems like he opened up a lot since he met you.\"/friendship GreenFlagDude 80/end"
+      }
+    },
+    {
+      "LogName": "Levi’s 10-Heart Event Mail",
+       "Action": "EditData",
+       "Target": "Data/Events/farm",
+       "Entries": {
+         "6184509/f GreenFlagDude 2500/x GreenFlagDude.tenHearts": "null"
+     },
+   },
   ]
 }

@@ -31,6 +31,18 @@
       "FromFile": "data/schedule.json"
     },
     {
+      "LogName": "New JoshHouse",
+      "Action": "Load",
+      "Target": "Maps/JoshHouse",
+      "FromFile": "assets/Maps/Assets/JoshHouse.tbin"
+    },
+    {
+      "LogName": "Levi Spouse Room",
+      "Action": "Load",
+      "Target": "Maps/spouseRooms",
+      "FromFile": "assets/Maps/Assets/spouseRooms.tbin"
+    },
+    {
       "LogName": "Gift Taste",
       "Action": "EditData",
       "Target": "Data/NPCGiftTastes",
@@ -95,16 +107,16 @@
       }
     },
     {
-      "LogName": "New JoshHouse",
-      "Action": "Load",
-      "Target": "Maps/JoshHouse",
-      "FromFile": "assets/Maps/Assets/JoshHouse.tbin"
+      "LogName": "Levi’s 6-Heart Event: Confronting the Past",
+      "Action": "EditData",
+      "Target": "Data/Events/JoshHouse",
+      "Entries": {
+      "6184505/f GreenFlagDude 1500/t 1000 1800": "echos/29 18/farmer 18 22 1 GreenFlagDude 29 18 1/skippable/pause 2000/message \"You heard a yelling voice.\"/message \"-I already told you, I can’t keep doing this!\"/message \"You need to figure things out on your own!\" /move farmer +6 0 1/speak GreenFlagDude \"No, Mom, it’s not about the money. It’s about the principle.$a#$b#I’ve given everything I had, and it was never enough!$a\"/faceDirection farmer 0 true/speak GreenFlagDude \"I moved here to start fresh.$a#$b#I can’t keep putting out fires you won’t even try to stop setting!$a\"/playSound phone/move farmer 0 -4 0/faceDirection farmer 1 /faceDirection GreenFlagDude 3/emote GreenFlagDude 16/pause 500/speak GreenFlagDude \"Oh... @.$s#$b#You heard all that, huh?$s\"/move farmer +4 0 1/speak GreenFlagDude \"Sorry. I didn’t mean for you to get caught up in that.$s#$b#That was my... family.\"/pause 500/speak GreenFlagDude \"They called to ‘check in,’ but we both know that’s not why$s.#$b#They always want something—money, favors, excuses to blame me for their problems.$a\" /quickQuestion \"\"#That sounds exhausting. You don’t deserve that.#Do you want to talk about it?#You were right to stand up for yourself.(break)speak GreenFlagDude \"Yeah, it is.#$b#And... thanks. It’s nice to hear that.\"(break)speak GreenFlagDude \"I don’t even know where to start...$s#$b#But maybe it’d help to get it off my chest.\"(break)speak GreenFlagDude \"You think so?#$b#It’s hard, but... yeah, I guess it was$s\"/speak GreenFlagDude \"They’ve been like this for as long as I can remember.#$b#I was just a kid when I started supporting them—working late, skipping meals, doing whatever it took.$s\" /speak GreenFlagDude \"But it was never enough. And when I finally said 'no', they acted like I’d betrayed them.$s\"/speak GreenFlagDude \"I know I made the right choice moving here.#$b#But every time they call, I feel... guilty. Like I’m letting them down. Even though I know it’s not my job to fix their lives.$s\"/switchEvent 6184506",
+      "6184506": "/pause 500/quickQuestion \"\"#You’ve done more than enough, Levi. It’s okay to put yourself first.#You’re not responsible for their choices. You deserve better.#You’re stronger than you think. You’ve already come so far.(break)speak GreenFlagDude \"You really think so?#$b#Maybe... maybe you’re right.$l\"(break)speak GreenFlagDude \"Thanks, @.#$b#I needed to hear that.$l\"(break)speak GreenFlagDude \"You always know what to say, huh?#$b#I don’t feel strong, but... maybe I am.$l\"/pause 500/speak GreenFlagDude \"Thanks for listening, @.#$b#I’ve been carrying this stuff for so long, it’s hard to let it out.\" /speak GreenFlagDude \"You’ve been a good friend to me.$l#$b#I’m lucky to have someone like you around.$l\"/speak GreenFlagDude \"I think it’s time I started setting some real boundaries.#$b#For my sake.\"/emote farmer 32/pause 1000/globalFade/viewport -1000 -1000/friendship GreenFlagDude 80/end"
+
+      }
     },
-    {
-      "LogName": "Levi Spouse Room",
-      "Action": "Load",
-      "Target": "Maps/spouseRooms",
-      "FromFile": "assets/Maps/Assets/spouseRooms.tbin"
-    }
+
+    
   ]
 }

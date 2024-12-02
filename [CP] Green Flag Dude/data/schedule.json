@@ -1,5 +1,6 @@
 {
-    "default": "700 JoshHouse 6 18 0/900 JoshHouse 28 17 0/1100 Town 44 78 2/1500 JoshHouse 28 17 0/1800 JoshHouse 6 18 0/2000 JoshHouse 28 17 0",
+    "spring": "700 JoshHouse 6 18 0/900 JoshHouse 28 17 0/1100 Town 44 78 2/1500 JoshHouse 28 17 0/1800 JoshHouse 6 18 0/2000 JoshHouse 28 17 0",
+    
     "Mon": "700 JoshHouse 6 18 0/900 JoshHouse 28 17 0/1100 Town 44 78 2/1500 JoshHouse 28 17 0/1800 JoshHouse 6 18 0/2000 JoshHouse 28 17 0",
     "Tue": "GOTO Mon",
     "Wed": "700 JoshHouse 6 18 0/900 JoshHouse 28 17 0/1100 Town 26 22 2/1800 JoshHouse 6 18 0/2000 JoshHouse 28 17 0",
@@ -8,6 +9,10 @@
     "Sat": "900 JoshHouse 6 18 0/1100 Town 44 78 2/1800 JoshHouse 6 18 0/2000 JoshHouse 28 17 0",
     "Sun": "900 JoshHouse 6 18 0/1100 Town 22 100 2/1800 Beach 43 36 2/2200 JoshHouse 28 17 0",
 
+    "marriage_Sun": "1800 Beach 43 36 2 \"Just wanted some fresh air.\"",
+
     "rain": "700 JoshHouse 6 18 0/1100 JoshHouse 28 17 0/1500 JoshHouse 6 18 0/2000 JoshHouse 28 17 0",
     "rain2": "GOTO rain",
+    "GreenRain": "GOTO rain",
+
 }

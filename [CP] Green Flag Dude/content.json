@@ -25,6 +25,12 @@
       "FromFile": "data/dialogue.json"
     },
     {
+      "LogName": "Marriage Dialogue",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/MarriageDialogue/GreenFlagDude",
+      "FromFile": "data/marriageDialogue.json"
+    },
+    {
       "LogName": "Schedule",
       "Action": "Load",
       "Target": "Characters/schedules/GreenFlagDude",

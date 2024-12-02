@@ -1,8 +1,8 @@
 {
-    "rain": "700 Town 54 75 1/2100 ManorHouse 7 5 0",
-    "rain2": "GOTO rain",
-    "default": "700 Town 54 75 1/2100 ManorHouse 7 5 0",
-    "spring": "700 Town 54 75 1/2100 ManorHouse 7 5 0",
-    "marriage_Mon": "900 Town 54 75 1/1700 BusStop -1 23 3",
-    "marriage_Tue": "GOTO marriage_Mon"
+  "rain": "700 Town 54 75 1/2100 ManorHouse 7 5 0",
+  "rain2": "GOTO rain",
+  "default": "700 Town 54 75 1/2100 ManorHouse 7 5 0",
+  "spring": "700 Town 54 75 1/2100 ManorHouse 7 5 0",
+  "marriage_Mon": "900 Town 54 75 1/1700 BusStop -1 23 3",
+  "marriage_Tue": "GOTO marriage_Mon"
 }

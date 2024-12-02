@@ -1,29 +1,29 @@
 {
     
-    "spring_GreenFlagDude": "Spring always feels like a new start. ## I’m glad I get to spend it with you.",
-    "summer_GreenFlagDude": "Summer’s nice, but... ## I’m glad I have someone to share it with.",
-    "fall_GreenFlagDude": "Fall always feels nostalgic to me. ## Let’s make good memories this season.",
-    "winter_GreenFlagDude": "Winter’s cold, but... ## You make it feel warmer.",
+    "spring_GreenFlagDude": "Spring always feels like a new start.#$b#I'm glad I get to spend it with you.",
+    "summer_GreenFlagDude": "Summer's nice, but...#$b#I'm glad I have someone to share it with.",
+    "fall_GreenFlagDude": "Fall always feels nostalgic to me.#$b#Let's make good memories this season.",
+    "winter_GreenFlagDude": "Winter's cold, but...#$b#You make it feel warmer.",
     
-    "Rainy_Day_GreenFlagDude" : "I brought you an umbrella in case you don’t have one ## Stay dry out there.",
-    "Rainy_Night_GreenFlagDude": "Drink some hot coffee. ## The rain’s cold, but this should help.",
-    "Indoor_Day_GreenFlagDude": "I’m lucky to have someone like you to come home to.",
-    "Indoor_Night_GreenFlagDude": "The day’s over... ## Let’s just relax together tonight.",
-    "Outdoor_GreenFlagDude": "I’m glad I got to emjoy this fresh air with you ",
+    "Rainy_Day_GreenFlagDude" : "I brought you an umbrella in case you don't have one#$b#Stay dry out there.",
+    "Rainy_Night_GreenFlagDude": "Drink some hot coffee.#$b#The rain's cold, but this should help.",
+    "Indoor_Day_GreenFlagDude": "I'm lucky to have someone like you to come home to.",
+    "Indoor_Night_GreenFlagDude": "The day's over...#$b#Let's just relax together tonight.",
+    "Outdoor_GreenFlagDude": "I'm glad I got to emjoy this fresh air with you ",
     
-    "spouseRoom_GreenFlagDude": "I set up a little something in here for you. ## Hope you like it.",
-    "patio_GreenFlagDude": "The patio’s nice, isn’t it? ## Peaceful, like the life I’ve always wanted.",
-    "funLeave_GreenFlagDude": "You’re heading out? ## Take care. I’ll be waiting when you get back.",
-    "funReturn_GreenFlagDude": "You’re back. ## I missed you while you were gone.",
+    "spouseRoom_GreenFlagDude": "I set up a little something in here for you.#$b#Hope you like it.",
+    "patio_GreenFlagDude": "The patio's nice, isn't it?#$b#Peaceful, like the life I've always wanted.",
+    "funLeave_GreenFlagDude": "You're heading out?#$b#Take care. I'll be waiting when you get back.",
+    "funReturn_GreenFlagDude": "You're back.#$b#I missed you while you were gone.",
     
-    "spring_12": "Spring’s already in full bloom. ## Let’s enjoy the festival together tomorrow.",
-    "spring_23": "The Flower Dance is tomorrow. ## I’d love to dance with you.",
-    "summer_10": "Let’s make something special for the Luau tomorrow. ## Together, we’ll wow them.",
-    "summer_27": "The Midnight Jellies will appear tomorrow night.#$b#It’s always so peaceful... Let’s watch them together and make a memory", 
-    "fall_15": "The Stardew Fair is tomorrow!#$b#It’s been years since I last tried the slingshot game—think I should give it another go? Or maybe we’ll just share some snacks", // Day before the Stardew Fair
-    "fall_26": "Spirit’s Eve is tomorrow.#$b#You know, I’m not great with scary things, but if you’re with me, I’ll be fine.", // Day before Spirit's Eve
-    "winter_1": "It’s my birthday today, and honestly...#$b#Having you here makes it the best one yet. Thank you for always being so thoughtful.", // Birthday Dialogue
-    "winter_7": "The Ice Festival is tomorrow.#$b#I’ve never been much of a skater, but maybe you could teach me a thing or two. Let’s make it fun!", // Day before the Ice Festival
-    "winter_24": "The Feast of the Winter Star is tomorrow.#$b#I’ve been working on a little gift—do you think they’ll like it? I’m glad we’ll celebrate together.", // Day before Winter Star
+    "spring_12": "Spring's already in full bloom.#$b#Let's enjoy the festival together tomorrow.",
+    "spring_23": "The Flower Dance is tomorrow.#$b#I'd love to dance with you.",
+    "summer_10": "Let's make something special for the Luau tomorrow.#$b#Together, we'll wow them.",
+    "summer_27": "The Midnight Jellies will appear tomorrow night.#$b#It's always so peaceful... Let's watch them together and make a memory", 
+    "fall_15": "The Stardew Fair is tomorrow!#$b#It's been years since I last tried the slingshot game—think I should give it another go? Or maybe we'll just share some snacks", // Day before the Stardew Fair
+    "fall_26": "Spirit's Eve is tomorrow.#$b#You know, I'm not great with scary things, but if you're with me, I'll be fine.", // Day before Spirit's Eve
+    "winter_1": "It's my birthday today, and honestly...#$b#Having you here makes it the best one yet. Thank you for always being so thoughtful.", // Birthday Dialogue
+    "winter_7": "The Ice Festival is tomorrow.#$b#I've never been much of a skater, but maybe you could teach me a thing or two. Let's make it fun!", // Day before the Ice Festival
+    "winter_24": "The Feast of the Winter Star is tomorrow.#$b#I've been working on a little gift—do you think they'll like it? I'm glad we'll celebrate together.", // Day before Winter Star
 
 }

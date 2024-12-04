@@ -1,0 +1,50 @@
+﻿{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/Characters",
+      "Entries": {
+        "Levi": {
+          "DisplayName": "Levi Perez",
+          "Gender": "Male", 
+          "Age": "Adult", 
+          "Manner": "Polite", 
+          "SocialAnxiety": "Outgoing", 
+          "Optimism": "Positive", 
+          "BirthSeason": "winter", 
+          "BirthDay": "1", 
+          "HomeRegion": "Town", 
+          "CanBeRomanced": true, 
+          "CanVisitIsland": true, 
+          "SpouseAdopts": true, 
+          "IntroductionsQuest": true, 
+          "ItemDeliveryQuests": true, 
+          "WinterStarParticipant": true,
+
+          "SpouseRoom": {
+            "MapAsset": "SpouseRooms", 
+            "MapSourceRect": {
+              "X": 18,
+              "Y": 18,
+              "Width": 6,
+              "Height": 9
+            }
+          },
+
+          "Home": [
+            //set this to where you want the NPC to spawn in normally.
+            {
+              "Id": "Default",
+              "Location": "JoshHouse",
+              "Tile": {
+                "X": 28,
+                "Y": 17
+              },
+              "Direction": "up"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

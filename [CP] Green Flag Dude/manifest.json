@@ -1,9 +1,9 @@
 {
-  "Name": "Green Flag Dude",
+  "Name": "Levi Perez",
   "Author": "Team Joseph",
   "Version": "1.0.0",
-  "Description": "Gonna add green flag dude.",
-  "UniqueID": "TeamJoseph.GreenFlagDude",
+  "Description": "An NPC mod made as a school group project. Hope you love him <3",
+  "UniqueID": "TeamJoseph.Levi",
   "UpdateKeys": [],
   "ContentPackFor": {
     "UniqueID": "Pathoschild.ContentPatcher"

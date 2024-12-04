@@ -9,13 +9,13 @@
 				{
    				    "Operation": "Append",
    				    "Target": ["Entries", "Set-Up_additionalCharacters"],
-   				    "Value": "GreenFlagDude 26 62 down",
+   				    "Value": "Levi 26 62 down",
    				    "Delimiter": "/"
 				},
 				{
    				    "Operation": "Append",
    				    "Target": ["Entries", "MainEvent_additionalCharacters"],
-   				    "Value": "GreenFlagDude 26 62 down",
+   				    "Value": "Levi 26 62 down",
    				    "Delimiter": "/"
 				},
 			],
@@ -25,7 +25,7 @@
 			"Action": "EditData",
 			"Target": "Data/Festivals/spring13",
 			"Entries": 
-			{ "GreenFlagDude": "All these eggs remind me of simpler times—backyard hunts and spring mornings. Feels nostalgic, doesn’t it?",
+			{ "Levi": "All these eggs remind me of simpler times—backyard hunts and spring mornings. Feels nostalgic, doesn’t it?",
 			},
 			
 		},
@@ -39,7 +39,7 @@
                         "Entries",
                         "Set-Up_additionalCharacters"
                     ],
-                    "Value": "GreenFlagDude 9 34 2",
+                    "Value": "Levi 9 34 2",
                     "Delimiter": "/"
                 },
                 {
@@ -48,7 +48,7 @@
                         "Entries",
                         "MainEvent_additionalCharacters"
                     ],
-                    "Value": "GreenFlagDude 23 28 3",
+                    "Value": "Levi 23 28 3",
                     "Delimiter": "/"
                 }
             ],
@@ -58,7 +58,7 @@
 			"Action": "EditData",
 			"Target": "Data/Festivals/spring24",
 			"Entries": 
-			{ "GreenFlagDude": "What a beautiful day for a festival! Don’t you think so, @?$h",},
+			{ "Levi": "What a beautiful day for a festival! Don’t you think so, @?$h",},
 		},
         {	
 			"LogName": "Luau",
@@ -69,13 +69,13 @@
 				{
    				    "Operation": "Append",
    				    "Target": ["Entries", "Set-Up_additionalCharacters"],
-   				    "Value": "GreenFlagDude 43 25 down",
+   				    "Value": "Levi 43 25 down",
    				    "Delimiter": "/"
 				},
 				{
 					"Operation": "Append",
 					"Target": ["Entries", "MainEvent_additionalCharacters"],
-					"Value": "GreenFlagDude 47 17 left",
+					"Value": "Levi 47 17 left",
 					"Delimiter": "/"
 				},
 			],
@@ -85,7 +85,7 @@
 			"Action": "EditData",
 			"Target": "Data/Festivals/summer11",
 			"Entries": 
-			{ "GreenFlagDude": "The soup smells amazing. Did you add something special? I trust your taste more than anyone else’s"},
+			{ "Levi": "The soup smells amazing. Did you add something special? I trust your taste more than anyone else’s"},
 		},
 		{	
             "LogName": "Luau - dialogue - Potluck compat",
@@ -93,7 +93,7 @@
             "Target": "Data/Festivals/summer11",
             "When": { "HasMod: |contains=LenneDalben.PelicanTownPotluck": true},
             "Entries": 
-            { "GreenFlagDude": "The soup smells amazing. Did you add something special? I trust your taste more than anyone else’s"},
+            { "Levi": "The soup smells amazing. Did you add something special? I trust your taste more than anyone else’s"},
 		},
 		{	
 			"LogName": "Dance of the Moonlight Jellies",
@@ -104,13 +104,13 @@
 				{
 					"Operation": "Append",
 					"Target": ["Entries", "Set-Up_additionalCharacters"],
-					"Value": "GreenFlagDude 13 30 right",
+					"Value": "Levi 13 30 right",
 					"Delimiter": "/"
 				},
 				{
 					"Operation": "Append",
 					"Target": ["Entries", "MainEvent_additionalCharacters"],
-					"Value": "GreenFlagDude 13 30 right",
+					"Value": "Levi 13 30 right",
 					"Delimiter": "/"
 				},
 			],
@@ -120,7 +120,7 @@
 			"Action": "EditData",
 			"Target": "Data/Festivals/summer28",
 			"Entries": 
-			{ "GreenFlagDude": "Look at them, @. It’s like they’re dancing just for us. Nights like this remind me why I came here",
+			{ "Levi": "Look at them, @. It’s like they’re dancing just for us. Nights like this remind me why I came here",
 			},
 		},
 		{	
@@ -134,7 +134,7 @@
 				{
 					"Operation": "Append",
 					"Target": ["Entries", "Set-Up_additionalCharacters"],
-					"Value": "GreenFlagDude 21 63 down",
+					"Value": "Levi 21 63 down",
 					"Delimiter": "/"
 				},
 			],
@@ -150,7 +150,7 @@
 				{
 					"Operation": "Append",
 					"Target": ["Entries", "Set-Up_additionalCharacters"],
-					"Value": "GreenFlagDude 21 63 down",
+					"Value": "Levi 21 63 down",
 					"Delimiter": "/"
 				},
 			],
@@ -160,7 +160,7 @@
 			"Action": "EditData",
 			"Target": "Data/Festivals/fall16",
 			"Entries": 
-			{ "GreenFlagDude": "If you need me, I’ll be trying to win one of those plushies. You know, for… decoration. Definitely not for cuddling",
+			{ "Levi": "If you need me, I’ll be trying to win one of those plushies. You know, for… decoration. Definitely not for cuddling",
 			},
 		},
 		{	
@@ -173,7 +173,7 @@
 				{
 					"Operation": "Append",
 					"Target": ["Entries", "Set-Up_additionalCharacters"],
-					"Value": "GreenFlagDude 27 53 left",
+					"Value": "Levi 27 53 left",
 					"Delimiter": "/"
 				},
 			],
@@ -189,7 +189,7 @@
 				{
 					"Operation": "Append",
 					"Target": ["Entries", "Set-Up_additionalCharacters"],
-					"Value": "GreenFlagDude 27 53 left",
+					"Value": "Levi 27 53 left",
 					"Delimiter": "/"
 				},
 			],
@@ -199,7 +199,7 @@
 			"Action": "EditData",
 			"Target": "Data/Festivals/fall27",
 			"Entries": 
-			{ "GreenFlagDude": "Don’t get lost in the maze, @. If you scream, I promise not to laugh. Too much.",
+			{ "Levi": "Don’t get lost in the maze, @. If you scream, I promise not to laugh. Too much.",
 			},
 		},
 		{	
@@ -212,13 +212,13 @@
 				{
 					"Operation": "Append",
 					"Target": ["Entries", "Set-Up_additionalCharacters"],
-					"Value": "GreenFlagDude 63 37 right",
+					"Value": "Levi 63 37 right",
 					"Delimiter": "/"
 				},
 				{
 					"Operation": "Append",
 					"Target": ["Entries", "MainEvent_additionalCharacters"],
-					"Value": "GreenFlagDude 63 37 right",
+					"Value": "Levi 63 37 right",
 					"Delimiter": "/"
 				},
 			],
@@ -233,13 +233,13 @@
 				{
 					"Operation": "Append",
 					"Target": ["Entries", "Set-Up_additionalCharacters"],
-					"Value": "GreenFlagDude 31 74 down",
+					"Value": "Levi 31 74 down",
 					"Delimiter": "/"
 				},
 				{
 					"Operation": "Append",
 					"Target": ["Entries", "MainEvent_additionalCharacters"],
-					"Value": "GreenFlagDude 31 74 down",
+					"Value": "Levi 31 74 down",
 					"Delimiter": "/"
 				},
 			],
@@ -249,7 +249,7 @@
 			"Action": "EditData",
 			"Target": "Data/Festivals/winter8",
 			"Entries": 
-			{ "GreenFlagDude": "I’ve never been great at ice fishing, but watching others try? That’s half the fun." },
+			{ "Levi": "I’ve never been great at ice fishing, but watching others try? That’s half the fun." },
 		},
 		{	
 			"LogName": "Feast of the Winter Star",
@@ -261,7 +261,7 @@
 				{
 					"Operation": "Append",
 					"Target": ["Entries", "Set-Up_additionalCharacters"],
-					"Value": "GreenFlagDude 24 56 right",
+					"Value": "Levi 24 56 right",
 					"Delimiter": "/"
 				},
 			],
@@ -271,7 +271,7 @@
 			"Action": "EditData",
 			"Target": "Data/Festivals/winter25",
 			"Entries": 
-			{ "GreenFlagDude": "I’ve always loved giving gifts more than receiving them. It’s nice to see someone light up over something thoughtful, you know?",
+			{ "Levi": "I’ve always loved giving gifts more than receiving them. It’s nice to see someone light up over something thoughtful, you know?",
 			},
 		},
 		{	
@@ -280,7 +280,7 @@
 		"Target": "Data/Festivals/winter25",
 		"When": { "HasMod: |contains=Airyn.CPSolsticeWinterStar": true},
 		"Entries": 
-		{ "GreenFlagDude": "This solstice feast reminds me of the holidays back home—before they got too complicated. It’s nice to just enjoy the moment, isn’t it?", },
+		{ "Levi": "This solstice feast reminds me of the holidays back home—before they got too complicated. It’s nice to just enjoy the moment, isn’t it?", },
 		},
 		
 		{	
@@ -293,13 +293,13 @@
 				{
 					"Operation": "Append",
 					"Target": ["Entries", "Set-Up_additionalCharacters"],
-					"Value": "GreenFlagDude 78 51 up",
+					"Value": "Levi 78 51 up",
 					"Delimiter": "/"
 				},
 				{
 					"Operation": "Append",
 					"Target": ["Entries", "MainEvent_additionalCharacters"],
-					"Value": "GreenFlagDude 79 51 up",
+					"Value": "Levi 79 51 up",
 					"Delimiter": "/"
 				},
 			],
@@ -310,7 +310,7 @@
 			"When": { "HasMod":"Rafseazz.RSVCP" },
 			"Target": "Data/Festivals/fall20",
 			"Entries": 
-			{ "GreenFlagDude": "The crisp mountain air, the sound of laughter… Ridgeside sure knows how to throw a gathering. It feels alive here.",
+			{ "Levi": "The crisp mountain air, the sound of laughter… Ridgeside sure knows how to throw a gathering. It feels alive here.",
 			},
 		},
 		{	
@@ -323,13 +323,13 @@
 				{
 					"Operation": "Append",
 					"Target": ["Entries", "Set-Up_additionalCharacters"],
-					"Value": "GreenFlagDude 38 34 down",
+					"Value": "Levi 38 34 down",
 					"Delimiter": "/"
 				},
 				{
 					"Operation": "Append",
 					"Target": ["Entries", "MainEvent_additionalCharacters"],
-					"Value": "GreenFlagDude 39 34 down",
+					"Value": "Levi 39 34 down",
 					"Delimiter": "/"
 				},
 			],
@@ -340,7 +340,7 @@
 			"When": { "HasMod":"Rafseazz.RSVCP" },
 			"Target": "Data/Festivals/winter28",
 			"Entries": 
-			{ "GreenFlagDude": "The end of the year always feels bittersweet, doesn’t it? But tonight’s bonfire is about looking ahead—letting the flames burn away the past.",
+			{ "Levi": "The end of the year always feels bittersweet, doesn’t it? But tonight’s bonfire is about looking ahead—letting the flames burn away the past.",
 			},
 		},
 		{	
@@ -353,7 +353,7 @@
 				{
 					"Operation": "Append",
 					"Target": ["Entries", "Set-Up_additionalCharacters"],
-					"Value": "GreenFlagDude 22 43 down",
+					"Value": "Levi 22 43 down",
 					"Delimiter": "/"
 				},
 			],
@@ -364,7 +364,7 @@
 			"When": { "HasMod":"violetlizabet.CP.FireworksFestival" },
 			"Target": "Data/Festivals/summer20",
 			"Entries": 
-			{ "GreenFlagDude": " wonder what the fireworks would look like from the mountains. Probably breathtaking. Maybe one day, we can watch them from up there together.",
+			{ "Levi": " wonder what the fireworks would look like from the mountains. Probably breathtaking. Maybe one day, we can watch them from up there together.",
 			},
 		},
 
@@ -380,7 +380,7 @@
 				{
 					"Operation": "Append",
 					"Target": ["Entries", "Set-Up_additionalCharacters"],
-					"Value": "GreenFlagDude 35 31 up",
+					"Value": "Levi 35 31 up",
 					"Delimiter": "/"
 				},
 			],
@@ -391,7 +391,7 @@
 			"When": { "HasMod":"UNA.FF.CP" },
 			"Target": "Data/Festivals/spring19",
 			"Entries": 
-			{ "GreenFlagDude": "Do you ever feel like clothes tell a story? Not just about the person wearing them, but about where they’ve been and where they’re headed. It’s fascinating.",
+			{ "Levi": "Do you ever feel like clothes tell a story? Not just about the person wearing them, but about where they’ve been and where they’re headed. It’s fascinating.",
 			},
 		},
 

@@ -10,13 +10,13 @@
       "LogName": "Portrait",
       "Action": "Load",
       "Target": "Portraits/Levi",
-      "FromFile": "assets/Portraits/Zoro_Portrait_Spring.png"
+      "FromFile": "assets/Portraits/GreenFlagDude.png"
     },
     {
       "LogName": "Sprite",
       "Action": "Load",
       "Target": "Characters/Levi",
-      "FromFile": "assets/Characters/Zoro_Spring.png"
+      "FromFile": "assets/Characters/Levi_Perez_SpriteSheet.png"
     },
     {
       "LogName": "Dialogue",

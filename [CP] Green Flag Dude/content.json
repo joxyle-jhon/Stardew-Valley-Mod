@@ -10,7 +10,7 @@
       "LogName": "Portrait",
       "Action": "Load",
       "Target": "Portraits/Levi",
-      "FromFile": "assets/Portraits/GreenFlagDude.png"
+      "FromFile": "assets/Portraits/Levi_Perez_Portrait.png"
     },
     {
       "LogName": "Sprite",

@@ -9,7 +9,7 @@ Welcome to the Stardew Valley Mod for the custom NPC, **Levi Perez**! This proje
 - [Installation](#installationsetup)
 - [Usage](#usage)
 - [Development Process](#development-process)
-- [Contributing](#contributing)
+- [Contribution](#contribution)
 - [License](#license)
 
 ## Features
@@ -39,5 +39,12 @@ For you to be able to run the mod, you need to have the following installed and 
      /<Stardew Valley Directory>/Mods/
 3. **Enjoy**
    - Launch the Stardew Valley and start Playing the mod.
-   
+
+## Contribution
+This mod was made possible by the following people:
+  - Jhon Lloyd F. Omblero (Leader)
+  - Chas Omer M. Madlos (Designer)
+  - Krystal Heart M. Bacalso (Programmer)
+  - Javier M. Raut (Documentator)
+  - Joseph Jose A. Deysolong (Tester)
    

@@ -32,3 +32,12 @@ For you to be able to run the mod, you need to have the following installed and 
 
    ```bash
    https://github.com/joxyle-jhon/Stardew-Valley-Mod.git
+2. **Copy Mod File**
+   - Copy the folder ```[CP] Green Flag Dude``` to:
+  
+     ```bash
+     /<Stardew Valley Directory>/Mods/
+3. **Enjoy**
+   - Launch the Stardew Valley and start Playing the mod.
+   
+   

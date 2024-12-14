@@ -7,8 +7,6 @@ Welcome to the Stardew Valley Mod for the custom NPC, **Levi Perez**! This proje
 - [Features](#features)
 - [Requirements](#requirements)
 - [Installation](#installationsetup)
-- [Usage](#usage)
-- [Development Process](#development-process)
 - [Contribution](#contribution)
 - [License](#license)
 
@@ -38,7 +36,7 @@ For you to be able to run the mod, you need to have the following installed and 
      ```bash
      /<Stardew Valley Directory>/Mods/
 3. **Enjoy**
-   - Launch the Stardew Valley and start Playing the mod.
+   - Launch Stardew Valley and start Playing the mod.
 
 ## Contribution
 This mod was made possible by the following people:

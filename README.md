@@ -13,7 +13,7 @@ Welcome to the Stardew Valley Mod for the custom NPC, **Levi Perez**! This proje
 ## Features
 
 - **New NPC**: Meet **Levi Perez**, a male character with a detailed story, heart events, and social interactions.
-- **Relationship Building**: Engage in dialogue, gift exchanges, and participate in heart events to build a relationship.
+- **Relationship Building**: Engage in dialogue, gift exchanges, and participate in heart events to build a relationship additional to the game.
 - **Marriage and Family**: Date and marry Levi, then experience family life with unique child growth stages.
 - **Event Participation**: Levi actively participates in Stardew Valley's seasonal events with custom dialogues.
 - **Modded Social Tab and Gift Log**: Track relationship progress and gifting history with custom interface updates.
